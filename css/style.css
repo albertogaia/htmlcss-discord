@@ -40,7 +40,8 @@ button {
     cursor: pointer;
 }
 
-button:hover {
+button:hover,
+.button a:hover {
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
 }
 
@@ -54,14 +55,6 @@ button:hover {
 
 .wrapper div {
     float: left;
-}
-
-.section-img {
-    width: 60%;
-}
-
-.section-text {
-    width: 40%;
 }
 
 main section p {
@@ -154,6 +147,7 @@ nav img {
 #main-banner p {
     font-size: 1.4em;
     line-height: 1.6em;
+    font-weight: 400;
     text-align: center;
     color: white;
 }
@@ -175,23 +169,32 @@ nav img {
 
 /* fine prima sezione */
 
-.section-img {
-    width: 70%;
+.col-left {
+    width: 60%;
+    float: left;
 }
 
-.section-text {
+.col-right {
     width: 30%;
+    float: right;
 }
 
-.section-text h2 {
+.col-right h2 {
     padding: 20px 0px;
     font-size: 40px;
     font-weight: 800;
     text-align: left;
 }
 
-.section-img img {
+.col-left img {
     max-width: 80%;
+}
+
+
+/* terza sezione */
+
+.bg-grey {
+    background-color: #F6F6F6;
 }
 
 
