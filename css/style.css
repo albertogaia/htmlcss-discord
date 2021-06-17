@@ -7,11 +7,74 @@
 
 /* COMMON */
 
+body {
+    font-family: 'Whitney', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif
+}
+
+.button {}
+
 
 /* FINE COMMON */
 
 
 /* HEADER */
+
+header {
+    background-color: #404FED;
+    height: 70px;
+    line-height: 70px;
+}
+
+nav {
+    margin: 0 auto;
+    width: 50%;
+}
+
+nav .menu {
+    width: 60%;
+    text-align: center;
+}
+
+nav .menu a {
+    font-weight: 500;
+    text-decoration: none;
+    padding: 0 10px;
+    color: white
+}
+
+nav .menu a:hover {
+    text-decoration: underline;
+}
+
+nav div {
+    display: inline-block;
+}
+
+nav img {
+    vertical-align: middle;
+}
+
+.logo,
+#btn-accedi {
+    width: 20%;
+}
+
+.logo {
+    float: left;
+}
+
+#btn-accedi {
+    text-align: right;
+    float: right;
+}
+
+#btn-accedi a {
+    background-color: white;
+    border-radius: 30px;
+    text-decoration: none;
+    padding: 10px 20px;
+    color: black;
+}
 
 
 /* FINE HEADER */
