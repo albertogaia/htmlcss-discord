@@ -55,7 +55,8 @@ button:hover,
 
 main section p {
     line-height: 1.5em;
-    font-weight: 500;
+    font-size: 1.3em;
+    font-weight: 400;
 }
 
 
@@ -198,6 +199,16 @@ nav img {
 
 .bg-grey {
     background-color: #F6F6F6;
+}
+
+#last-section {
+    height: 100vh;
+}
+
+#last-section,
+#last-section p,
+#last-section h2 {
+    text-align: center;
 }
 
 
