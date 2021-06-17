@@ -15,7 +15,7 @@ body {
 .boxed {
     position: relative;
     margin: 0 auto;
-    width: 50%;
+    max-width: 1150px;
     height: 100%;
 }
 
@@ -51,10 +51,6 @@ button:hover,
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-}
-
-.wrapper div {
-    float: left;
 }
 
 main section p {
@@ -169,25 +165,32 @@ nav img {
 
 /* fine prima sezione */
 
-.col-left {
+.col-img {
     width: 60%;
+}
+
+.col-txt {
+    width: 40%;
+    padding: 10px;
+}
+
+.col h2 {
+    padding: 20px 0px;
+    font-size: 40px;
+    font-weight: 900;
+    text-align: left;
+}
+
+.col img {
+    max-width: 100%;
+}
+
+.col-left {
     float: left;
 }
 
 .col-right {
-    width: 30%;
     float: right;
-}
-
-.col-right h2 {
-    padding: 20px 0px;
-    font-size: 40px;
-    font-weight: 800;
-    text-align: left;
-}
-
-.col-left img {
-    max-width: 80%;
 }
 
 
