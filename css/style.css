@@ -197,8 +197,20 @@ nav img {
 
 /* terza sezione */
 
+
+/* quinta sezione */
+
 .bg-grey {
     background-color: #F6F6F6;
+    position: relative;
+}
+
+.bg-grey .wave {
+    background-image: url('');
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    top: -30px;
 }
 
 #last-section {
@@ -211,11 +223,124 @@ nav img {
     text-align: center;
 }
 
+.cta-last-section {
+    background-image: url('../img/stars.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 50px 0px;
+}
+
+.cta-last-section button,
+.bottom-footer button {
+    background-color: #8EA0E1;
+    color: white;
+}
+
 
 /* FINE MAIN */
 
 
 /* FOOTER */
+
+footer {
+    padding: 50px 0px;
+    background-color: #24272A;
+}
+
+footer h3,
+footer h4 {
+    color: #8EA0E1;
+}
+
+footer h3 {
+    width: 80%;
+    font-size: 2em;
+}
+
+footer h4 {
+    font-weight: 600;
+    padding: 0px 0px 10px 0px;
+}
+
+footer ul li {
+    color: white;
+    list-style: none;
+    padding: 10px 0px;
+}
+
+.clearfix {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.wrap-left {
+    width: calc(100% / 6 * 2);
+    float: left;
+}
+
+.wrap-right {
+    float: left;
+    width: calc(100% / 6 * 4);
+}
+
+.wrap-right div {
+    display: inline-block;
+    float: left;
+    width: calc(100% / 4);
+}
+
+.top-footer {
+    border-bottom: 2px solid #8EA0E1;
+    height: 100%;
+    width: 100%;
+    padding: 50px 0px;
+}
+
+form {
+    padding: 20px 0px;
+}
+
+select {
+    background-color: #24272A;
+    border: none;
+    color: white;
+    padding: 10px 20px 10px 0px;
+}
+
+footer .fab {
+    color: white;
+    font-size: 1.3em;
+    padding: 0px 5px;
+}
+
+footer .fab:hover {
+    color: #8EA0E1;
+    cursor: pointer;
+}
+
+.bottom-footer {
+    position: relative;
+    width: 100%;
+    line-height: 100px;
+    height: 100px;
+    padding: 20px 0px;
+}
+
+.bottom-footer-logo img {
+    vertical-align: middle;
+}
+
+.bottom-footer-logo,
+.bottom-footer-btn {
+    width: 50%;
+    display: inline-block;
+    float: left;
+}
+
+.bottom-footer-btn button {
+    float: right;
+}
 
 
 /* FINE FOOTER */
